@@ -106,12 +106,15 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-image: url('gta-sa-background.jpg'); /* Burada GTA SA görselinin yolunu ekle */
+            background-size: cover;
+            background-position: center;
             margin: 0;
             padding: 0;
+            color: white;
         }
         header {
-            background-color: #333;
+            background-color: rgba(0, 0, 0, 0.7); /* Hafif siyah arka plan */
             color: white;
             padding: 15px;
             text-align: center;
@@ -123,23 +126,31 @@
             padding: 20px;
             max-width: 1200px;
             margin: auto;
-            background-color: white;
+            background-color: rgba(0, 0, 0, 0.6); /* Şeffaf arka plan */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
         h2 {
-            color: #333;
+            color: #f4f4f4;
             text-decoration: underline;
         }
         ul {
             line-height: 1.8;
-            color: #333; /* Metin rengini koyu gri yaptık */
+            color: #f4f4f4; /* Beyaz metin rengi */
         }
         li {
-            color: #333; /* Her maddeyi koyu renkli yaptık */
+            color: #f4f4f4; /* Beyaz metin rengi */
+        }
+        .roleplay-terms {
+            background-color: rgba(0, 0, 0, 0.7); /* Hafif siyah arka plan */
+            color: white; /* Beyaz metin rengi */
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
         }
         footer {
             text-align: center;
-            background-color: #333;
+            background-color: rgba(0, 0, 0, 0.7); /* Hafif siyah arka plan */
             color: white;
             padding: 10px;
             position: fixed;
@@ -170,12 +181,14 @@
 
 <div class="content">
     <h2>1. Roleplay (RP) Kuralları:</h2>
-    <ul>
-        <li><b>Metagaming:</b> Oyun içi karakterin bilmediği bilgiyi, oyuncunun kendi bildiği şekilde kullanmak yasaktır. Karakterinizin bilmediği hiçbir şeyi bilmezsiniz. Mesela, OOC (Out of Character) bilgilere dayanarak IC (In Character) hareket edemezsiniz.</li>
-        <li><b>Powergaming:</b> Karakterin güçsüz ya da zor durumda olduğunu göz ardı ederek "gerçekçi olmayan" hareketlerde bulunmak yasaktır. Karakterinizin yapamayacağı veya gerçekçi olmayan bir şekilde güçlü olmasına izin verilmez.</li>
-        <li><b>Meta-İletişim (Meta-communication):</b> Karakterin bilmediği bir şeyi dışarıdan bilmek ve bunu kullanmak yasaktır. Örneğin, oyun dışında bir yerde bir karakterin sizinle iletişime geçmesini bilmek ve bu bilgiyi oyun içinde kullanmak yasaktır.</li>
-        <li><b>Powergaming (PvP):</b> Güçlü karakterler ile oyuncuların birbirlerine sürekli zarar vermesi yasaktır. PvP (Player vs Player) içeren bir durum meydana geldiğinde, karşı tarafın da katılımı sağlanmalıdır.</li>
-    </ul>
+    <div class="roleplay-terms">
+        <ul>
+            <li><b>Metagaming:</b> Oyun içi karakterin bilmediği bilgiyi, oyuncunun kendi bildiği şekilde kullanmak yasaktır. Karakterinizin bilmediği hiçbir şeyi bilmezsiniz. Mesela, OOC (Out of Character) bilgilere dayanarak IC (In Character) hareket edemezsiniz.</li>
+            <li><b>Powergaming:</b> Karakterin güçsüz ya da zor durumda olduğunu göz ardı ederek "gerçekçi olmayan" hareketlerde bulunmak yasaktır. Karakterinizin yapamayacağı veya gerçekçi olmayan bir şekilde güçlü olmasına izin verilmez.</li>
+            <li><b>Meta-İletişim (Meta-communication):</b> Karakterin bilmediği bir şeyi dışarıdan bilmek ve bunu kullanmak yasaktır. Örneğin, oyun dışında bir yerde bir karakterin sizinle iletişime geçmesini bilmek ve bu bilgiyi oyun içinde kullanmak yasaktır.</li>
+            <li><b>Powergaming (PvP):</b> Güçlü karakterler ile oyuncuların birbirlerine sürekli zarar vermesi yasaktır. PvP (Player vs Player) içeren bir durum meydana geldiğinde, karşı tarafın da katılımı sağlanmalıdır.</li>
+        </ul>
+    </div>
 
     <h2>2. Genel Kurallar:</h2>
     <ul>
