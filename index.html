@@ -132,6 +132,10 @@
         }
         ul {
             line-height: 1.8;
+            color: #333; /* Metin rengini koyu gri yaptık */
+        }
+        li {
+            color: #333; /* Her maddeyi koyu renkli yaptık */
         }
         footer {
             text-align: center;
@@ -141,6 +145,20 @@
             position: fixed;
             bottom: 0;
             width: 100%;
+        }
+        .button {
+            background-color: #4CAF50; /* Buton rengi */
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #45a049;
         }
     </style>
 </head>
@@ -202,7 +220,8 @@
         <li><b>İkinci Uyarı:</b> Cezalar uygulandıktan sonra oyuncuya bir kez daha uyarı yapılır. Eğer hala kurallar ihlal ediliyorsa, sunucudan banlama uygulanabilir.</li>
         <li><b>Sunucudan Yasaklama:</b> Tekrarlanan kurallar ihlali ve büyük cezalar sonucunda, oyuncu sunucudan kalıcı olarak yasaklanabilir.</li>
     </ul>
-    
+
+    <a href="#top" class="button">Yukarı Dön</a>
 </div>
 
 <footer>
@@ -211,4 +230,3 @@
 
 </body>
 </html>
-
